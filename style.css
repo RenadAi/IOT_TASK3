@@ -1,0 +1,44 @@
+﻿body {
+    background-color: #f9fbe0;
+}
+
+
+.container {
+    margin: 10% auto;
+    width: 50%;
+    height: 40vh;
+    border:  5px ;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sensor_container {
+    height: 100%;
+    width: 50%;
+}
+
+    .sensor_container:nth-of-type(1) {
+        border-right:  5px ;
+    }
+
+    .sensor_container h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+
+.sensor_value {
+    margin: auto;
+    height: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+    .sensor_value h1 {
+        font-size: 6rem;
+        color: brown;
+    }
+
